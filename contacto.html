@@ -6,7 +6,7 @@
     <title>Wildscape - Rescue and Sanctuary Center</title>
     <link rel="icon" type="image/x-icon" href="img/icon.png">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/equipo.css">
+    <link rel="stylesheet" href="css/contacto.css">
 </head>
 <body>
     <header>
@@ -25,32 +25,55 @@
     <div class="main-content">
        
         <section id="principal">
-            <a href="#"><h1>¡Contáctanos para Salvar Vidas!</h1></a>
+            <h1>¡Contáctanos para Salvar Vidas!</h1>
             <p>Nos dedicamos a rescatar, rehabilitar y encontrar hogares amorosos para animales en situación de vulnerabilidad. Si conoces un caso de un animal que necesita ayuda o quieres sumarte a nuestra causa como voluntario, adoptante o donante, ¡estamos aquí para escucharte! Tu apoyo puede marcar la diferencia en la vida de un ser que lo necesita.</p>
-            <p>Si quieres contactarnos te invitamos a rellenar el siguiente formulario</p>
+            <p>Si quieres contactarnos te invitamos a rellenar el siguiente formulario:</p>
         </section>
-        
-        <form>
-            <div>
-                <label>Nombre</label>
-                <input  name="nombre" />
-                <label>Correo electrónico</label>
-                <input  name="nombre" />
-            </div>
+        <div id="form-container">
+            <form>
+                <div class="fila">
+                    <label>Nombre</label>
+                    <input  name="nombre" /><br>
+                </div>
+                <div class="fila">
+                    <label>Correo electrónico</label>
+                    <input type="email" name="email" />
+                </div>
+                <div class="fila">
+                    <label>Teléfono: (Opcional)</label>
+                    <input  type="tel" name="telefono" />
+                </div>
+                <div class="fila">
+                    <label>Motivo:</label>
+                    <select>
+                        <option name="1">Reportar un animal en peligro</option>
+                        <option name=2">Información sobre adopción</option>
+                        <option name="3">Ser voluntario</option>
+                        <option name="4">Donar</option>
+                    </select>
+                </div>
+                <div class="fila">
+                    <label>Otros</label>
+                    <textarea name="otros"></textarea>    
+                </div>
+                <div >
+                    <input id="btn" type="submit" value="Enviar"></input>
+                </div>
 
-            <div>
+            </form>
+        </div>
 
-                <input type="submit">Enviar</input>
-                
-            </div>    
-        </form>
+        <section id="horarios">
+            <h2>Horario de Atención:</h2>
+            <p>Lunes a Viernes: 9:00 AM - 7:00 PM</p>
+            <p>Sábados y Domingos: Emergencias únicamente</p>
+            <p>Ubicación (Opcional):</p>
+            <p> Si deseas visitarnos o traer algún animal, contáctanos previamente.</p>
+            <p>  Dirección: Calle Esperanza Animal, 123, Ciudad Rescate, CP 45678</p>
+            
+        </section>
 
     </div>   
-     
-    <!-- Footer -->
-    <footer>
-        <p>&copy; Contacto: 656825639.</p>
-    </footer>
 
     <footer>
         &copy; 2024 Wildscape - Todos los derechos reservados.

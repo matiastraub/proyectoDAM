@@ -1,0 +1,104 @@
+body {
+    background: url('../img/equipo/background-equipo.jpg') no-repeat center center fixed;
+    background-size: cover;
+ 
+}
+
+.main-content h1 {
+    margin-bottom: 5vh;
+}
+
+h1,h2, p {
+    color: #938ba1;
+
+}
+
+.main-content section {
+    width: 66%;
+    margin:0 17%;
+}
+
+h3, li {
+    font-size: 1.2rem;
+}
+
+h2, h3 {
+   
+    text-decoration: underline;
+}
+p {
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 500;
+ 
+}
+
+#principal {
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+}
+
+#principal a {
+    text-decoration: none;
+}
+
+#form-container {
+    width: 100%;
+}
+
+#form-container form {
+    border-radius: 10px;
+    padding: 3vh 0;
+    width: 600px;
+    height: auto;
+    margin-left: 17%;
+    background: rgb(0,0,0,0.5);
+}
+
+form .fila label {
+    min-width: 200px;
+    display: inline-block;
+    text-align:left;
+    margin-bottom: 3vh
+}
+
+form .fila input, form .fila select, form .fila textarea {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+form .fila select {
+    width: 210px;
+}
+
+
+input[type=submit] {
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    padding: 6px 16px;
+    /* position: relative; */
+    cursor: pointer;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+}
+
+input[type=submit]:hover {
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
+#horarios h2 {
+    text-align: left;
+}
+
+#horarios {
+    margin: 50px 0;
+}
+#horarios p {
+    line-height: 0.3;
+}
