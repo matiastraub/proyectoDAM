@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    background: url('../img/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main-content {
+    width: 66%;
+    margin:0 17%;
+    min-height: 100vh;
+}
+
+#principal h1, #principal p {
+    color: #938ba1;
+}
+
+#principal {
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+}
+
+
+.main-content p {
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 500;
+}
+h3, li {
+    font-size: 1.2rem;
+ 
+}
+
+ul li {
+    text-align: left;
+}
+
+h2, h3 {
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none !important;
+    color: white !important;
+}
+header .logo a {
+    text-decoration: none !important;  /* Elimina el subrayado */
+    color: white !important;           /* Asegura que el color sea blanco */
+}
+
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.box {
+    background: none repeat scroll rgba(6, 84, 114, .6);
+    /* margin-left: 5px; */
+    padding: 5px 25px;
+    border-radius: 10px;
+    margin: 20px 0 20px 0;
+    width: 100%;
+}
+
